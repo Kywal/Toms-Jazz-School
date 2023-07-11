@@ -4,10 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
     <title>Tom's Jazz School</title>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <img src="../Images/logo.svg" alt="Logomarca">
+            <nav class="">
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container row-reverse">
+                <img src="../Images/hero-img.svg" alt="Desenho de homens tocando piano">    
+                <div>
+                    <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                    <p class="mt-2 mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos natus culpa quas! Rem tempora quod iste earum ullam ut, repudiandae sit optio soluta delectus veritatis voluptates vero illum molestiae?</p>
+                    <a href="" class="button">Comece agora</a>
+                </div>
+            </div>
+        </section>
+        <section class="courses-section">
+            <div class="cards">
+                <article class="card">
+                    <img src="../Images/piano.png" alt="Icone de teclas de piano">
+                    <strong>Piano popular</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque in perspiciatis saepe odio atque consequatur molestiae repellendus tempora magnam numquam officiis molestias, nam tenetur, sunt omnis aliquid maxime explicabo quidem.</p>
+                    <a href="">
+                        <img src="../Images/arrow-right.svg" alt="Set para direita">
+                    </a>
+                </article>
+                <article class="card">
+                    <img src="../Images/clef.png" alt="Icone da clase de sol">
+                    <strong>Teoria musical</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque in perspiciatis saepe odio atque consequatur molestiae repellendus tempora magnam numquam officiis molestias, nam tenetur, sunt omnis aliquid maxime explicabo quidem.</p>
+                    <a href="">
+                        <img src="../Images/arrow-right.svg" alt="Set para direita">
+                    </a>
+                </article>
+                <article class="card">
+                    <img src="../Images/sax.png" alt="Icone de saxofone">
+                    <strong>Sax alto</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque in perspiciatis saepe odio atque consequatur molestiae repellendus tempora magnam numquam officiis molestias, nam tenetur, sunt omnis aliquid maxime explicabo quidem.</p>
+                    <a href="">
+                        <img src="../Images/arrow-right.svg" alt="Set para direita">
+                    </a>
+                </article>
+                <article class="card">
+                    <img src="../Images/drums.png" alt="Icone de bateria">
+                    <strong>Bateria</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque in perspiciatis saepe odio atque consequatur molestiae repellendus tempora magnam numquam officiis molestias, nam tenetur, sunt omnis aliquid maxime explicabo quidem.</p>
+                    <a href="">
+                        <img src="../Images/arrow-right.svg" alt="Set para direita">
+                    </a>
+                </article>
+            </div>
+            
+            <h2 class="text-center mt-2 mb-2 mx-auto">E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#" class="button mx-auto">Conhecer cursos</a>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="about-column">
+                <img src="../Images/logo.svg" alt="Logomarca">
+                <p class="mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sapiente numquam sit obcaecati praesentium sint commodi! Eum, facilis distinctio? Quidem quae dolorum dolore repellat beatae consectetur nulla, nam reprehenderit. Voluptas.</p>
+            </div>
+            <nav class="mt-2 mb-2">
+                <a href="">Início</a>
+                <a href="">Cursos</a>
+                <a href="">Eventos</a>
+                <a href="">Contato</a>
+            </nav>
+            <form action="" class="newsletter-form">
+                <label for="email">Receba materiais gratuitos no seu email</label>
+                <input type="email" id="email" class="mt-1">
+                <button type="submit" class="button mt-1">QUERO RECEBER</button>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
